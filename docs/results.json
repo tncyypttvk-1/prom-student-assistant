@@ -1,0 +1,32 @@
+{
+  "source": "User-shared Colab output; 30 package test questions. Latest verified baseline before retrieval patch; patch outcomes unverified.",
+  "test": {
+    "total": 30,
+    "overall": 0.7,
+    "tr": 0.7,
+    "en": 0.7
+  },
+  "before": {
+    "tr_name": 0,
+    "en_name": 0,
+    "tr_tool": 0.5,
+    "en_tool": 0.33,
+    "tr_rag": 0.47,
+    "en_rag": 0.53
+  },
+  "after": {
+    "tr_name": 0.6,
+    "en_name": 0.2,
+    "tr_tool": 0.83,
+    "en_tool": 0.83,
+    "tr_rag": 0.5,
+    "en_rag": 0.8
+  },
+  "limitations": [
+    "Identity drift",
+    "Wrong retrieval for some Turkish queries",
+    "Incorrect multi-step tool selection",
+    "Language mismatch",
+    "One erroneous weighted-average response"
+  ]
+}

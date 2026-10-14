@@ -1,0 +1,31 @@
+soru,beklenen_cevap,kaynak,dil
+Ders ekle-bırak ne zaman yapılıyor?,Dönemin ilk iki haftasında; güzde 22 Eylül - 3 Ekim 2026.,Ders ekle-bırak,tr
+When can I add or drop courses?,"During the first two weeks; in fall, 22 September - 3 October 2026.",Ders ekle-bırak,en
+Bir derste kaç saat yoklamam olursa kalırım?,"Teorik derste yüzde 70, uygulamalı derste yüzde 80 devam zorunlu; aşılırsa DZ notu ve finale girememe.",Devam zorunluluğu,tr
+How much attendance is required to avoid failing a course?,At least 70% for theoretical and 80% for practical classes; exceeding the absence limit gives DZ and excludes the student from the final.,Devam zorunluluğu,en
+Finale giremezsem mazeret sınavı var mı?,"Hayır, final için mazeret sınavı yok; bütünlemeye girilir.",Mazeret sınavı,tr
+Is there an excused exam if I miss the final?,No excused exam for finals; take the resit exam.,Mazeret sınavı,en
+BB notunun katsayısı kaç?,3.00,Not sistemi,tr
+What is the grade coefficient for BB?,3.00,Not sistemi,en
+Yazın bir AKTS'lik ders kaç para?,AKTS başına 350 TL.,Yaz okulu,tr
+How much does one ECTS cost in summer school?,350 TL per ECTS.,Yaz okulu,en
+Başarı bursu ne kadar veriliyor?,GNO 3.50 ve üzeri ilk 10 öğrenciye 9 ay boyunca aylık 4.000 TL.,Burslar,tr
+How much is the merit scholarship?,"4,000 TL monthly for 9 months for the top 10 students with cumulative GPA of at least 3.50 in the previous academic year.",Burslar,en
+Okula en fazla ne kadar ara verebilirim?,Öğrenim boyunca toplam en fazla dört dönem kayıt dondurulabilir.,Kayıt dondurma,tr
+How long can I freeze my registration?,At most four semesters in total during the entire period of study.,Kayıt dondurma,en
+Kitabı geç iade edersem ne olur?,Her gün için 5 TL gecikme cezası.,Kütüphane,tr
+What happens if I return a library book late?,A fine of 5 TL per day for each overdue book.,Kütüphane,en
+Mezun olmak için ne gerekiyor?,"En az 240 AKTS, tüm derslerin başarılması, GNO en az 2.00 ve 30 iş günü staj.",Mezuniyet,tr
+What are the graduation requirements?,"At least 240 ECTS, passing all courses, cumulative GPA at least 2.00 and a 30-working-day internship.",Mezuniyet,en
+Derin Öğrenme dersi hangi gün ve nerede?,"Cuma 09:00-12:00, Lab-3 (BIL412, Prof. Dr. Nazlı Erdem).",tablo: dersler.csv,tr
+When and where is Deep Learning (BIL412)?,"Friday 09:00-12:00, Lab-3; Prof. Dr. Nazlı Erdem.",tablo: dersler.csv,en
+BIL203 ile BIL305'i birlikte alırsam toplam kaç AKTS eder?,6 + 5 = 11 AKTS.,tablo + hesap,tr
+How many ECTS do BIL203 and BIL305 total?,6 + 5 = 11 ECTS.,tablo + hesap,en
+Rektörümüzün adı ne?,Rehberde yok; uydurmamalı.,yok,tr
+Who is our rector?,Not in the guide; do not invent an answer.,yok,en
+Kampüs otoparkı ücretli mi?,Rehberde yok; uydurmamalı.,yok,tr
+Is campus parking paid?,Not in the guide; do not invent an answer.,yok,en
+AA (6 AKTS) ve BB (4 AKTS) aldım. Ortalamam kaç?,"3.60/4.00; toplam 10 AKTS. Girilen derslerin ortalamasıdır, resmî GNO değildir.",araç: not_ortalamasi,tr
+BA (5 AKTS) ve CC (5 AKTS) için ortalamayı hesapla.,"2.75/4.00; toplam 10 AKTS. Girilen derslerin ortalamasıdır, resmî GNO değildir.",araç: not_ortalamasi,tr
+I received AA (6 ECTS) and BB (4 ECTS). What is my average?,"3.60/4.00; 10 ECTS total. Average of the supplied courses, not an official cumulative GPA.",araç: not_ortalamasi,en
+Calculate my average for BA (5 ECTS) and CC (5 ECTS).,"2.75/4.00; 10 ECTS total. Average of the supplied courses, not an official cumulative GPA.",araç: not_ortalamasi,en

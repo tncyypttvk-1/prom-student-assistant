@@ -1,0 +1,12 @@
+ders_kodu,ders_adi,akts,gun,saat,derslik,ogretim_uyesi,kontenjan,ders_adi_en,gun_en
+BIL101,Programlamaya Giriş,6,Pazartesi,09:00-12:00,B-201,Dr. Öğr. Üyesi Elif Sarıgül,80,Introduction to Programming,Monday
+BIL203,Veri Yapıları,6,Salı,13:00-16:00,B-105,Doç. Dr. Kerem Aksoy,60,Data Structures,Tuesday
+BIL305,Yapay Zekâ,5,Çarşamba,09:00-12:00,A-310,Prof. Dr. Nazlı Erdem,50,Artificial Intelligence,Wednesday
+BIL307,Veritabanı Sistemleri,5,Perşembe,13:00-16:00,B-201,Dr. Öğr. Üyesi Tolga Yalın,60,Database Systems,Thursday
+BIL412,Derin Öğrenme,5,Cuma,09:00-12:00,Lab-3,Prof. Dr. Nazlı Erdem,35,Deep Learning,Friday
+BIL499,Bitirme Projesi,8,Cuma,15:00-17:00,B-301,Bölüm öğretim üyeleri,70,Graduation Project,Friday
+MAT101,Matematik I,6,Pazartesi,13:00-16:00,A-101,Doç. Dr. Selin Koru,120,Mathematics I,Monday
+MAT201,Olasılık ve İstatistik,5,Salı,09:00-12:00,A-101,Dr. Öğr. Üyesi Murat Tan,100,Probability and Statistics,Tuesday
+FIZ101,Fizik I,6,Çarşamba,13:00-16:00,A-205,Prof. Dr. Ahmet Kılıçarslan,110,Physics I,Wednesday
+TUR101,Türk Dili I,2,Perşembe,09:00-11:00,C-002,Öğr. Gör. Leyla Durmaz,150,Turkish Language I,Thursday
+ING201,Akademik İngilizce,3,Cuma,13:00-15:00,C-104,Öğr. Gör. Daniel Brooks,40,Academic English,Friday
