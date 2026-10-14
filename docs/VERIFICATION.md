@@ -8,6 +8,8 @@
 - Sayfa ekran görüntüsü ve LinkedIn PNG görseli kaydedildi.
 - Güncel site canlı Prom modeline bağlanmadı.
 - Sites kaynak aktarımı, mevcut oturumun onay politikası nedeniyle reddedildi; üretim yayını yapılmadı.
-- GitHub bağlantısı kurulmadı; GitHub’a yükleme gerçekleşmedi.
+- GitHub bağlantısı kuruldu; 23 proje dosyası main dalına yüklendi.
+- GitHub Pages etkinleştirildi; üniversite sayfasının https://tncyypttvk-1.github.io/prom-student-assistant/ adresinde açıldığı tarayıcıda doğrulandı.
+- Canlı site ekran görüntüsü kaydedildi.
 
 Eğitim/test sonuçları kullanıcının paylaştığı Colab çıktısından alındı. Arama düzeltmesi sonrası başarı doğrulanmadı. Hesaplayıcı ve rehber vitrini model değerlendirmesinden ayrı uygulamalardır.

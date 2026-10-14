@@ -2,6 +2,8 @@
 
 ![Prom project cover](docs/linkedin-cover.png)
 
+**Explore:** [University showcase](https://tncyypttvk-1.github.io/prom-student-assistant/) · [LinkedIn draft](docs/LINKEDIN.md)
+
 A bilingual Turkish/English student affairs assistant built as an AI Engineering capstone. Prometheus University is a **fictional educational institution**. This project does not perform official student transactions.
 
 ## What this repository contains

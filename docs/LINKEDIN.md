@@ -10,6 +10,8 @@ Projede QLoRA ile kimlik ve araç protokolü eğitimi, Türkçe/İngilizce RAG, 
 
 Web vitrini rehber, ders kataloğu ve hesaplayıcı içeriyor; eğitilmiş model bağlantısı ayrı sunulacak. Prometheus University gerçek bir kurum değil, eğitim amacıyla tasarlanmış bir senaryo.
 
-GitHub ve demo bağlantılarını doğruladıktan sonra buraya ekleyeceğim.
+GitHub: https://github.com/tncyypttvk-1/prom-student-assistant
+
+Üniversite demosu: https://tncyypttvk-1.github.io/prom-student-assistant/
 
 #AIEngineering #RAG #QLoRA #LLM #HuggingFace

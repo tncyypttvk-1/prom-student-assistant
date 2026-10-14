@@ -1,3 +1,9 @@
+GitHub aktarımı tamamlandı: https://github.com/tncyypttvk-1/prom-student-assistant
+
+Canlı üniversite demosu: https://tncyypttvk-1.github.io/prom-student-assistant/
+
+Aşağıdaki adımlar projeyi başka bir depoda tekrar kurmak içindir.
+
 # GitHub’a yükleme
 
 1. GitHub hesabında New repository seç. İsim önerisi: `prom-student-assistant`.
