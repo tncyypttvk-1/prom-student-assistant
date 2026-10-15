@@ -1,32 +1,58 @@
 {
-  "source": "User-shared Colab output; 30 package test questions. Latest verified baseline before retrieval patch; patch outcomes unverified.",
+  "source": "Latest user-uploaded Colab notebook reviewed on 2026-10-14. Retrieval patch remains unverified. Scores are Gemini-judge results on 30 questions.",
   "test": {
     "total": 30,
-    "overall": 0.7,
-    "tr": 0.7,
-    "en": 0.7
+    "points": 15.5,
+    "overall": 0.5166666666666667,
+    "tr": 0.36666666666666664,
+    "en": 0.6666666666666666
   },
   "before": {
     "tr_name": 0,
     "en_name": 0,
-    "tr_tool": 0.5,
-    "en_tool": 0.33,
-    "tr_rag": 0.47,
-    "en_rag": 0.53
+    "tr_tool": 0.33,
+    "en_tool": 0,
+    "tr_rag": 0.6,
+    "en_rag": 0.47
   },
   "after": {
-    "tr_name": 0.6,
-    "en_name": 0.2,
-    "tr_tool": 0.83,
-    "en_tool": 0.83,
-    "tr_rag": 0.5,
-    "en_rag": 0.8
+    "tr_name": 0.4,
+    "en_name": 0.1,
+    "tr_tool": 0.67,
+    "en_tool": 0.5,
+    "tr_rag": 0.6,
+    "en_rag": 0.63
   },
-  "limitations": [
-    "Identity drift",
-    "Wrong retrieval for some Turkish queries",
-    "Incorrect multi-step tool selection",
-    "Language mismatch",
-    "One erroneous weighted-average response"
-  ]
+  "previous_run": {
+    "source": "User-shared Colab output; 30 package test questions. Latest verified baseline before retrieval patch; patch outcomes unverified.",
+    "test": {
+      "total": 30,
+      "overall": 0.7,
+      "tr": 0.7,
+      "en": 0.7
+    },
+    "before": {
+      "tr_name": 0,
+      "en_name": 0,
+      "tr_tool": 0.5,
+      "en_tool": 0.33,
+      "tr_rag": 0.47,
+      "en_rag": 0.53
+    },
+    "after": {
+      "tr_name": 0.6,
+      "en_name": 0.2,
+      "tr_tool": 0.83,
+      "en_tool": 0.83,
+      "tr_rag": 0.5,
+      "en_rag": 0.8
+    },
+    "limitations": [
+      "Identity drift",
+      "Wrong retrieval for some Turkish queries",
+      "Incorrect multi-step tool selection",
+      "Language mismatch",
+      "One erroneous weighted-average response"
+    ]
+  }
 }

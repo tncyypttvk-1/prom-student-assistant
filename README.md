@@ -23,13 +23,13 @@ Base model: `Qwen/Qwen2.5-1.5B-Instruct`. Fine-tuning: QLoRA, rank 16, alpha 32,
 
 ## Results and honest limits
 
-Package-test score: **0.70**, 30 questions; TR **0.70**, EN **0.70**. These are LLM-judge scores on a small test suite, not production accuracy claims.
+Latest uploaded notebook: **15.5 / 30 = 0.5167** (displayed as 0.52). TR **0.3667**, EN **0.6667**. An earlier run scored 0.70; these are separate runs, not a measured improvement. All are LLM-judge scores on a small test suite.
 
 | Metric | TR before / after | EN before / after |
 |---|---|---|
-| Name mention | 0.00 / 0.60 | 0.00 / 0.20 |
-| Correct tool | 0.50 / 0.83 | 0.33 / 0.83 |
-| RAG judge | 0.47 / 0.50 | 0.53 / 0.80 |
+| Name mention | 0.00 / 0.40 | 0.00 / 0.10 |
+| Correct tool | 0.33 / 0.67 | 0.00 / 0.50 |
+| RAG judge | 0.60 / 0.60 | 0.47 / 0.63 |
 
 Known failures include institution/developer identity hallucinations, wrong Turkish retrieval, language mismatch and incorrect multi-step calculations. Name mention does not measure correct institution identity. The marker rate and JSON validity do not imply factual correctness. These baseline results predate the unverified retrieval fix.
 
