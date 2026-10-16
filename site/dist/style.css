@@ -10,3 +10,6 @@ body{background:var(--paper)}.masthead{min-height:220px;background:var(--paper)}
 .hero-neural{position:absolute;z-index:2;right:5%;top:28px;width:220px;padding:10px 12px;border-top:1px solid #d4af7055;background:linear-gradient(135deg,#081b2990,#351b2130);pointer-events:none}.hero-neural svg{display:block;width:100%;height:88px}.hero-neural>span{display:block;color:#e4cfaa;font:7px monospace;letter-spacing:1.5px;text-align:right}.hero .eyebrow>span{background:#d4af70}.hero-tag .bracket{color:#d4af70}@media(max-width:760px){.hero-neural{display:none}}
 
 .hero-neural{display:none}.hero-circuit{position:absolute;z-index:2;right:5.5%;top:24px;width:110px;height:145px;opacity:.8;pointer-events:none}.hero-circuit svg{width:100%;height:100%;filter:drop-shadow(0 2px 6px #1c162a66)}@media(max-width:760px){.hero-circuit{display:none}}
+
+/* Larger neon-gold circuit torch, matched to the burgundy/gold identity. */
+.hero-circuit{right:3.5%;top:16px;width:185px;height:245px;opacity:1}.hero-circuit svg{filter:drop-shadow(0 0 3px #ffe3a4) drop-shadow(0 0 10px #eab85b99) drop-shadow(0 0 22px #b36b3a88)}.hero-circuit svg g[stroke]{stroke:#ffdfa0;stroke-width:1.65}.hero-circuit svg g[fill]{fill:#fff0c4}@media(max-width:1050px){.hero-circuit{width:155px;height:205px;right:3%}}@media(max-width:760px){.hero-circuit{display:none}}
