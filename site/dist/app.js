@@ -55,3 +55,18 @@ document.getElementById('prom-chat-close').addEventListener('click',()=>promDial
 document.getElementById('prom-demo-retry').addEventListener('click',mountPromDemo);
 promDialog.addEventListener('click',event=>{if(event.target===promDialog)promDialog.close()});
 promDialog.addEventListener('close',()=>promOpener?.focus());
+
+// Cross-origin Gradio owns its input. Copy explicit questions instead of pretending to send them.
+document.querySelectorAll('[data-prom-question]').forEach(button=>button.addEventListener('click',async()=>{
+  const question=button.dataset.promQuestion;
+  const status=document.getElementById('prom-copy-status');
+  const fallback=document.getElementById('prom-copy-fallback');
+  try {
+    await navigator.clipboard.writeText(question);
+    fallback.hidden=true;
+    status.textContent=t('Kopyalandı! Mesaj kutusuna yapıştır, karttaki modu seç ve gönder.','Copied! Paste into the message box, select the card’s mode and send.');
+  } catch {
+    fallback.value=question;fallback.hidden=false;fallback.focus();fallback.select();
+    status.textContent=t('Soruyu aşağıdan seçip kopyala, ardından mesaj kutusuna yapıştır.','Copy the selected question below, then paste into the message box.');
+  }
+}));
