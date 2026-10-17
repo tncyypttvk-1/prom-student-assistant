@@ -1,5 +1,5 @@
 # Prom model connection
-Public temporary Colab URL: https://22e898781647a77e1d.gradio.live
+Public temporary Colab URL: https://6383da1dc2d64e4bfb.gradio.live
 
 The floating Prom control and AI section CTA open a native dialog containing the real Gradio app in a cross-origin iframe. The model runs in Colab; GitHub Pages hosts only the website. Closing/expiring the Colab runtime can stop the demo. The panel provides an external tab fallback and reconnect control. No API token is exposed.
 
