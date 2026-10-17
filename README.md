@@ -2,6 +2,8 @@
 
 ![Prom project cover](docs/linkedin-cover.png)
 
+**Final Colab:** [Executed notebook](https://colab.research.google.com/drive/1-NL5VZoQhPoZOFM7Hq5MaNHQ85zae99j?usp=sharing)
+
 **Explore:** [University showcase](https://tncyypttvk-1.github.io/prom-student-assistant/) · [LinkedIn draft](docs/LINKEDIN.md)
 
 A bilingual Turkish/English student affairs assistant built as an AI Engineering capstone. Prometheus University is a **fictional educational institution**. This project does not perform official student transactions.
@@ -11,7 +13,7 @@ A bilingual Turkish/English student affairs assistant built as an AI Engineering
 - `notebooks/Prom_Bitirme_Projesi.ipynb`: Colab pipeline for synthetic data, QLoRA fine-tuning, evaluation, RAG, agents, GGUF and Gradio deployment.
 - `src/`: identity, shared agent tools, weighted GPA calculator and retrieval patch.
 - `data/`: 15 bilingual guide sections, 11 course records, 30 test questions.
-- `site/dist/`: responsive, buildless university showcase, guide explorer, course catalog and browser-local GPA calculator. **The showcase is not connected to the trained model.**
+- `site/dist/`: responsive, buildless university showcase, guide explorer, course catalog and browser-local GPA calculator. The Prom button opens the trained model through a **temporary Colab/Gradio demo**. The runtime must remain active.
 - `docs/results.json`: results shared from Colab, with known limitations.
 - `docs/`: architecture, reproducibility notes, GitHub publishing instructions and LinkedIn draft.
 
@@ -23,15 +25,17 @@ Base model: `Qwen/Qwen2.5-1.5B-Instruct`. Fine-tuning: QLoRA, rank 16, alpha 32,
 
 ## Results and honest limits
 
-Latest uploaded notebook: **15.5 / 30 = 0.5167** (displayed as 0.52). TR **0.3667**, EN **0.6667**. An earlier run scored 0.70; these are separate runs, not a measured improvement. All are LLM-judge scores on a small test suite.
+Final executed notebook reviewed on 17 October 2026: **23.5 / 30 = 0.7833** (displayed as 0.78). TR **0.7333**, EN **0.8333**. These are Gemini-judge scores on a small test suite, including retrieval and application-level agent fixes. Rule-based GPA routing contributes and is not model-only performance. The 0.77 preceding run and older 0.52/0.70 runs are separate records; judge variation was observed.
 
 | Metric | TR before / after | EN before / after |
 |---|---|---|
-| Name mention | 0.00 / 0.40 | 0.00 / 0.10 |
-| Correct tool | 0.33 / 0.67 | 0.00 / 0.50 |
-| RAG judge | 0.60 / 0.60 | 0.47 / 0.63 |
+| Name mention | 0.00 / 0.50 | 0.00 / 0.40 |
+| Correct tool | 0.00 / 0.67 | 0.00 / 0.60 |
+| RAG judge | 0.50 / 0.47 | 0.60 / 1.00 |
 
-Known failures include institution/developer identity hallucinations, wrong Turkish retrieval, language mismatch and incorrect multi-step calculations. Name mention does not measure correct institution identity. The marker rate and JSON validity do not imply factual correctness. These baseline results predate the unverified retrieval fix.
+These before/after metrics precede application fixes. Turkish RAG did not improve in this measurement. Known failures include attendance, registration-freeze and overdue-book answers, institution/developer identity, language mismatch and incomplete answers. Only three CPU examples were checked; 0.78 is not a CPU benchmark.
+
+The repository notebook is an earlier source snapshot; use the **Final Colab** link above for the latest executed notebook and historical training evidence. The latest run reused the trained model; it did not retrain.
 
 ## Run the showcase locally
 
@@ -49,7 +53,7 @@ Never commit access tokens, private student records or model weights. Uploaded w
 
 ## GitHub Pages
 
-The included workflow deploys `site/dist` when enabled in repository Settings → Pages → GitHub Actions. This serves the static showcase; hosting the trained model requires the separate Gradio/GGUF runtime. No live model URL is configured yet.
+The included workflow deploys `site/dist` when enabled in repository Settings → Pages → GitHub Actions. This serves the static showcase; hosting the trained model requires the separate Gradio/GGUF runtime. The temporary model URL is configured in `site/dist/demo-config.js`. Replace it with a verified permanent `hf.space` app URL when available. No access token belongs in browser code.
 
 ## Credits and licensing
 
